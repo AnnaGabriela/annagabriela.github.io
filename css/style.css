@@ -95,6 +95,10 @@ h1 {
   height 220px;
   border-radius: 50%;
 }
+.banner img:hover {
+  -webkit-filter: sepia(0.3);
+  filter: sepia(0.3);
+}
 .social-icons {
   margin-top: 1%;
   margin-bottom: 0;
