@@ -78,7 +78,7 @@ h1 {
   width: 100%;
   float: left;
   text-align: center;
-  padding: 7% 4%;
+  padding: 4% 4%;
   background: rgba(255,255,255, 0.8);
   margin-bottom: 5%;
 }
@@ -113,44 +113,194 @@ h1 {
 }
 .social-icons a:last-child {margin-right: 0;}
 
+/* SOBRE */
+.sobre {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 6% 4%;
+  background-color: rgba(255,255,255, 0.8);
+  margin-bottom: 5%;
+}
+#codeconSkills {
+font-size: 20px;
+height: auto;
+margin: 0 auto;
+padding: 10px;
+width: 75%;
+}
+#codeconSkills img {
+width: 20%;
+height: 10%;
+margin: auto 35%;
+padding: 10px;
+}
+.codeconSkillbar {
+width: 90%;
+height: 50px;
+position: relative;
+background: rgba(17, 17, 17, .3);
+margin: 20px auto;
+}
+#codeconHTML {
+width: 100%;
+animation: Animate-HTML 4s;
+-webkit-animation: Animate-HTML 4s;
+-moz-animation: Animate-HTML 4s;
+-o-animation: Animate-HTML 4s;
+height: 50px;
+position: absolute;
+background-color: #ea8564;
+}
+@keyframes Animate-HTML {
+from {
+width: 10px;
+}
+to {
+width: 100%}
+}@-webkit-keyframes Animate-HTML {
+from {
+width: 10px;
+}
+to {
+width: 100%}
+}@-moz-keyframes Animate-HTML {
+from {
+width: 10px;
+}
+to {
+width: 100%}
+}@-o-keyframes Animate-HTML {
+from {
+width: 10px;
+}
+to {
+width: 100%}
+}
+#codeconCSS {
+animation: Animate-CSS 5s;
+-webkit-animation: Animate-CSS 5s;
+-moz-animation: Animate-CSS 5s;
+-o-animation: Animate-CSS 5s;
+width: 70%;
+height: 50px;
+position: absolute;
+background-color: #55a69f;
+}
+@keyframes Animate-CSS {
+from {
+width: 10px;
+}
+to {
+width: 70%}
+}@-webkit-keyframes Animate-CSS {
+from {
+width: 10px;
+}
+to {
+width: 70%}
+}@-moz-keyframes Animate-CSS {
+from {
+width: 10px;
+}
+to {
+width: 70%}
+}@-o-keyframes Animate-CSS {
+from {
+width: 10px;
+}
+to {
+width: 70%}
+}
+#codeconjQuery {
+animation: Animate-jQuery 5s;
+-webkit-animation: Animate-jQuery 5s;
+-moz-animation: Animate-jQuery 5s;
+-o-animation: Animate-jQuery 5s;
+width: 40%;
+height: 50px;
+position: absolute;
+background-color: #99856d;
+}
+@keyframes Animate-jQuery {
+from {
+width: 10px;
+}
+to {
+width: 40%}
+}@-webkit-keyframes Animate-jQuery {
+from {
+width: 10px;
+}
+to {
+width: 40%}
+}@-moz-keyframes Animate-jQuery {
+from {
+width: 10px;
+}
+to {
+width: 40%}
+}@-o-keyframes Animate-jQuery {
+from {
+width: 10px;
+}
+to {
+width: 40%}
+}
+.codeconSkillArea {
+z-index: 1;
+float: left;
+//position: absolute;
+margin-top: 15px;
+margin-left: 15px;
+text-shadow: none;
+color: #fff;
+//font-family: Lato-Regular, sans-serif;
+font-size: 18px;
+}
+.PercentText {
+z-index: 3;
+position: relative;
+padding-right: 15px;
+margin-top: 15px;
+float: right;
+text-shadow: none;
+color: #fff;
+//font-family: Lato-Regular, sans-serif;
+font-size: 18px;
+}
+
 /* WORK */
 .portfolio {
   width: 100%;
   float: left;
   text-align: center;
-  padding: 8% 4%;
+  padding: 4% 4%;
   background-color: rgba(255,255,255, 0.8);
   margin-bottom: 5%;
-
 }
 .work {
-  width: 100%;
   padding: 1%;
   background-color: white;
-  text-align: center;
-  border-radius: 7px;
-  margin-left: 4px;
+  border-radius: 100%; 
+  border-style: dashed;
+  border-color: gray;
+  border-width: thin;
 }
-.work img {
-  border-radius: 7px;
-}
-.inner {padding: 1%;}
-
-.inner a {
-  font-size: 1em;
-  color: #ff6666;
-}
+.work img {border-radius: 100%;}
+.work img:hover {opacity: 0.5; -moz-opacity: 0.5;}
 
 /* CONTATO */
 .contato {
   width: 100%;
   float: left;
   text-align: center;
-  padding: 3% 4%;
+  padding: 2% 3%;
   background-color: rgba(255,255,255, 0.8);
 }
 .contato form {
-  float: center;
+  float: left;
+  width: 70%;
 }
 .contato button {
   float: right;
@@ -158,10 +308,18 @@ h1 {
   width: 30%;
   font-size: 1.2em;
 }
-.contato input, textarea{
+.contato input, textarea {
   margin-bottom: 1%;
   padding: 1%;
   width: 100%;
+}
+.contact {
+  margin-top: 2%;
+  width: 30%;
+  float: right;
+}
+.contact h2{
+  padding: 6px;
 }
 
 /* FOOTER */
@@ -187,7 +345,7 @@ h1 {margin-bottom: 5%;}
 @media screen and (min-width: 1024px) {
 .btn-menu {display: none;}
 .btn-close {display: none;}
-.menu {width: auto; height: 20px; line-height: 20px; float: right; display: block; position: static; background-color: transparent;}
+.menu {width: auto; height: 20px; line-height: 20px; float: right; display: block !important; position: static; background-color: transparent;}
 .menu li {padding: 0; float: left;}
 .menu li a {color: white; font-size: 1.3em; margin-left: 30px; }
 .menu li a:hover {color: #efc1c1;}

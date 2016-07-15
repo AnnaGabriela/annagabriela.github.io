@@ -16,42 +16,75 @@
   </head>
   <body>
 
+<div id="cabecalho">
   <header class="cabecalho">
     <button class="btn-menu"> <i class="fa fa-bars" aria-hidden="true"></i> </button>
     <nav class="menu"> 
       <a class="btn-close"> <i class="fa fa-times"></i> </a>
       <ul>
         <li><a href="#cabecalho">Início</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#portfolio">Portfólio</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#sobremenu">Sobre</a></li>
+        <li><a href="#trabalhos">Portfólio</a></li>
+        <li><a href="#contatomenu">Contato</a></li>
       </ul>
     </nav>
   </header>
-
+</div>
   <div class="banner">
-    <img src="img/profile.png" class="profile"/>
+    <a href="http://annagabriela.github.io/"><img src="img/profile.png" class="profile"/>
     <div class="title">
       <h1>Anna Gabriela Carvalho</h1>
     </div>
     <div class="social-icons">
-      <a href="https://www.facebook.com/aninhagabs"><i class="fa fa-facebook"></i></a>    
-      <a href="https://twitter.com/aninhagabs"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.instagram.com/annagabriela__/"><i class="fa fa-instagram"></i></a>
-      <a href="https://github.com/annagabriela"><i class="fa fa-github"></i></a>  
-      <a href="https://open.spotify.com/user/aninhagabs"><i class="fa fa-spotify"></i></a>
+      <a href="https://www.facebook.com/aninhagabs" target="_blank"><i class="fa fa-facebook"></i></a>    
+      <a href="https://twitter.com/aninhagabs" target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://www.instagram.com/annagabriela__/" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://github.com/annagabriela" target="_blank"><i class="fa fa-github"></i></a>  
+      <a href="https://open.spotify.com/user/aninhagabs" target="_blank"><i class="fa fa-spotify"></i></a>
     </div>
   </div>
 
+<div id="sobremenu">
+  <h1>SOBRE</h1>
+  <main class="sobre">
+    <div id="codeconSkills">
+    <div class="codeconSkillbar">
+    <div id="codeconHTML"> 
+    <span class="codeconSkillArea ">HTML</span>
+    <span class="PercentText ">100%</span>
+    </div>
+    </div>
+    <div class="codeconSkillbar">
+    <div id="codeconCSS">
+    <span class="codeconSkillArea ">CSS/CSS3</span>
+    <span class="PercentText ">70%</span>
+    </div>
+    </div>
+    <div class="codeconSkillbar">
+    <div id="codeconjQuery">
+    <span class="codeconSkillArea ">jQuery</span>
+    <span class="PercentText ">40%</span>
+    </div>
+    </div>
+    </div>
+  </main>
+</div>
   <h1>PORTFÓLIO</h1>
-  <main class="portfolio">
-    <article class="work"><a href="livroscameraacao.blogspot.com.br" target="_blank"><img src="img/work1.png"></a> <div class="inner"><a href="#">Layout do Blog Livros, Câmera, Ação</a></div></article>
-    <article class="work"><a href="http://acaratterteste2.blogspot.com.br/" target="_blank"><img src="img/work2.png"></a> <div class="inner"><a href="#">Layout do Blog À Caratter</a></div></article>
-    <article class="work"> <a href="http://annagabriela.github.io/" target="_blank"><img src="img/work4.png"></a> <div class="inner"><a href="#">Layout deste site</a></div></article>
+  <div id="trabalhos"></div><main class="portfolio">
+    <article class="work"><a href="http://livroscameraacao.blogspot.com.br" target="_blank"><img src="img/work1.png"></a></div></article>
+    <article class="work"><a href="http://acaratterteste2.blogspot.com.br/" target="_blank"><img src="img/work2.png"></a></article>
+    <article class="work"> <a href="http://annagabriela.github.io/"><img src="img/work4.png"></a></article>
   </main>
 
- <h1>CONTATO</h1>
+  <h1>CONTATO</h1>
+  <div id="contatomenu">
   <section class="contato">
+    <article class="contact">
+      <h2>Anna Gabriela Carvalho</h2>
+      <h2>Olinda, PE - Brasil</h2>
+      <h2>(81) 982-493-624</h2>  
+      <h2>agmc0997@gmail.com</h2>
+    </article>
     <form>
       <input type="text" name="nome" placeholder="Seu nome" required="required"></input><br>
       <input type="email" name="email" placeholder="Seu email"></input><br>
@@ -59,6 +92,7 @@
       <button type="button">Enviar</button>
     </form>
   </section>
+  </div>
 
   <footer class="rodape">
       <p class="copyright">
