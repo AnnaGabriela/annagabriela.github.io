@@ -78,9 +78,8 @@ h1 {
   width: 100%;
   float: left;
   text-align: center;
-  padding: 4% 4%;
+  padding: 3% 4%;
   background: rgba(255,255,255, 0.8);
-  margin-bottom: 5%;
 }
 .banner h1 {
   font-size: 2.7em;   
@@ -118,9 +117,10 @@ h1 {
   width: 100%;
   float: left;
   text-align: center;
-  padding: 6% 4%;
+  padding: 5% 4%;
   background-color: rgba(255,255,255, 0.8);
-  margin-bottom: 5%;
+  margin-bottom: 2.5%;
+  margin-top: -1%;
 }
 #codeconSkills {
 font-size: 20px;
@@ -275,9 +275,10 @@ font-size: 18px;
   width: 100%;
   float: left;
   text-align: center;
-  padding: 4% 4%;
+  padding: 2% 10%;
   background-color: rgba(255,255,255, 0.8);
-  margin-bottom: 5%;
+  margin-bottom: 2.3%;
+  margin-top: -2%;
 }
 .work {
   padding: 1%;
@@ -295,8 +296,9 @@ font-size: 18px;
   width: 100%;
   float: left;
   text-align: center;
-  padding: 2% 3%;
+  padding: 5% 5%;
   background-color: rgba(255,255,255, 0.8);
+  margin-bottom: 7%;
 }
 .contato form {
   float: left;
@@ -323,7 +325,7 @@ font-size: 18px;
 }
 
 /* FOOTER */
-.rodape {
+footer {
   width: 100%;
   float: left;
   text-align: center;
