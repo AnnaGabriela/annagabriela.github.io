@@ -16,21 +16,28 @@
 
 <style scoped>
 .skills {
-  width: 380px;
+  width: 100%;
+  font-size: 0.7em;
   font-family: 'DIN', 'Roboto', sans-serif;
-  font-size: 0.8em;
   text-align: center;
   margin: 20px auto 0;
 }
 
 .skills span {
-  color: #ff7665;
+  color: #f9478e;
   margin: 5px;
   line-height: 2.6;
-  padding: 5px;
-  border-radius: 5px;
-  background-color: rgba(247, 234, 234, 0.72);
+  padding: 6px;
+  border-radius: 20px;
+  background-color: rgba(255, 184, 184, 0.116);
 }
 
-.skills a { color: #ff7665; }
+.skills a { color: #f9478e; }
+
+@media screen and (min-width: 768px) {
+  .skills {
+    width: 380px;
+    font-size: 0.8em;
+  }
+}
 </style>

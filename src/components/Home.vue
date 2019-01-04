@@ -3,7 +3,7 @@
     <img src="../../static/profile.png" class="profile-pic" alt="profile image">
     <h1 class="name">Anna Gabriela Carvalho</h1>
     <p class="description">
-      Web developer. 21 years old. Graduate student in Computer Science at CESAR School.
+      Web developer. 21 years old. Undergraduate student in Computer Science at CESAR School.
     </p>
     <Skills/>
     <SocialMedia/>
@@ -25,19 +25,19 @@ export default {
 
 <style scoped>
 .container {
+  width: 100%;
+  height: 80vh;
   position: absolute;
   margin: auto;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  height: 70%;
   background-color: #fff;
 }
 
 .profile-pic {
-  width: 150px;
-  padding: 10px 0;
+  width: 100px;
   margin: 15px auto;
   border-radius: 50%;
   display: block;
@@ -52,7 +52,7 @@ export default {
 }
 
 .description {
-  width: 350px;
+  width: 100%;
   font-family: 'DIN', 'Roboto', sans-serif;
   font-size: 0.95em;
   text-align: center;
@@ -66,7 +66,11 @@ export default {
     border-radius: 10px;
   }
 
+  .description { width: 350px; }
+
   .profile-pic {
+    width: 150px;
+    padding: 10px 0;
     margin: -90px auto 0;
   }
 }
