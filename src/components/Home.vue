@@ -12,7 +12,7 @@
     <SocialMedia/>
     <div class="buttons">
       <Button title="About Me" link="https://www.notion.so/annagabriela/My-Workspace-4961e3f09ce5429da6fe0f9e002bde68" />
-      <Button title="Resume" link="https://drive.google.com/file/d/1xN2FLogXPwNYRtOD1gD-ZEbG8GIgwU6i/view?usp=sharing" />
+      <Button title="Resume" link="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a84cc2e9-ccb7-4d6a-b10c-c6a85de2621f/CV_-_Anna_Gabriela_Carvalho.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200430%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200430T175514Z&X-Amz-Expires=86400&X-Amz-Signature=58d7c996e40968ef196b81d503b58cb1f892586381dd3371fefefa839113ec59&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22CV%2520-%2520Anna%2520Gabriela%2520Carvalho.pdf%22" />
     </div>
   </main>
 </template>
